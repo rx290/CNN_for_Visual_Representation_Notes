@@ -27,5 +27,30 @@ Dataset to use CIFAR10
 
 L1 / manhattan distance is a comparison method what it does is it creates a difference of two images in pixels values.
 
+L2 / Eculidean Distance which calculates by taking a square root of the sum of squares of the elements as the distance
 
+Hyperparameters are choices about the algorithm that we set rather than we learn
+
+like what value of k should we use or what distance method should we use?
+
+do's and don't:
+1. Don't set k = 1 
+2. Don't Divide DS into two parts train and test
+3. Always Divide DS into Three parts Train, Validation and Test
+
+cross validation is used for smaller data set
+
+## Linear Classification
+
+CNNs are basically like lego blocks and one of the foundational lego block for CNN is Linear Classification
+
+### Algorithm Approach
+
+so LC uses Parametric approach we takes in both data and parameters then it'll allocate a score out of 10 for the class it resembles.
+
+sometimes we will need some bias data which is a constant vector of 10 elements
+
+cons of LC:
+
+it can only train one template per classifier
 
