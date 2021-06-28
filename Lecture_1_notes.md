@@ -1,5 +1,7 @@
 # Lecture 1
 
+## Introduction to CV and its History
+
 What is computer vision?
 The field of computer science which deals with the study of visual data is known as Computer Vision.
 
@@ -52,6 +54,41 @@ Spatial Pyramid Matching was introduced by Lazebnik, Schmid & ponce in 2006 the 
 Human body detection was done by two technologies which are as follows:
 1. Histogram of Gradients by Dalal And Triggs in 2005
 2. Deformable Part Model by Felzenswalb, McAllester and Ramanan in 2009
+
+All of this progress laid foundation to a grand dataset which was there to measure how far we(researchers) have come in terms of Object Recognition and Computer Vision i.e. a benchmark it had 20 different objects to classify and detect.
+
+This test is known as Pascal Visual Object Challenge.
+
+in 2009 a team from stanford took 2 challenges to overcome overfitting of ML and to recognize all things on earth and they created a dataset of 14 m pictures with 22k Categories known as Imagenet
+image-net.org 
+
+in 2012 CNN dropped the error rate by 10% which is a significant drop rate.
+
+## Deep Learning
+
+what is image Classification?
+When an algorithm reads a image and based on some features it tends to classify it to some known classes then it is known as classification.
+
+What is object Detection?
+Detection of multiple objects within the image.
+
+What is object Captioning?
+When an object is detected we now need to produce a Natural Language Processing Label to show what it is.
+
+What are CNNS or Convents?
+
+
+lecun and collaborators at bell labs in 1998 built a network of layers to recognize digits so that OCR can be a thing and handwritten checks can be recognized.
+
+That's how CNN were invented.
+
+Since 1998 there are global innovationsw which made CNN popular again:
+
+1. Computation
+2. GPU
+3. DATA
+
+Visual Genome
 
 
 
