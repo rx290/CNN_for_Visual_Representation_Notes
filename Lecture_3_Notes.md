@@ -1,5 +1,7 @@
 # Lecture 3
 
+Sigmoid functions are used for binary states
+
 Loss Function:
     an algorithm which takes in w and the number of Dataset then tells the program what bias value will be best for the training set is known as loss function
 
@@ -20,6 +22,8 @@ Regularization is used when we need a simple path i.e most common type of regula
 
 Softmax Classifier (Multinomial Logistic Regression)
 
+calculates 10 values whose sum will be equal to 1 and the highest
+
 so in softmax classifier we put more weight on the scores and use them to compute a probability distribution among the classes
 
  Li in softmax = - log(e^syi / Ej e^sj)
@@ -38,6 +42,6 @@ Learning Rate (Hyper Parameter, very important)
 
 stochastic Gradient Descent is something where we create some random set of data from training data rather than the complete dataset
 
-image features are mapping of some of the features in numerical form to feed to the classifier 
+image features are mapping of some of the features in numerical form to feed to the classifier
 
 histogram oriented gradients
